@@ -1,11 +1,11 @@
 {
     "name": "فآپ",
     "short_name": "فآپ",
-    "start_url": "/flutter-faap-web2/index.html",
+    "start_url": "/index.html",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "برنامه مشاهده قیمت آنالیز",
+    "description": "نرم افزار موبایل برای فهرست بها و آنالیزبها",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
