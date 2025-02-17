@@ -9141,7 +9141,7 @@ k=t.N
 j=t.z
 i=A.fv(A.a8(["Content-Type","application/json","Accept","application/json"],k,j))
 s=7
-return A.L(l.hQ("https://hamfa.karnamapeyman.ir/api/Auth/SignIn",A.a8(["Email",a,"UsrName",a,"Password",b],k,k),i,j),$async$b_F)
+return A.L(l.hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/Auth/SignIn",A.a8(["Email",a,"UsrName",a,"Password",b],k,k),i,j),$async$b_F)
 case 7:n=d
 if(A.c8(n.a).a){g=A.c8(n.a).a
 $.hy=A.c8(n.a).e}p=2
@@ -9173,7 +9173,7 @@ k=t.N
 j=t.z
 i=A.fv(A.a8(["Content-Type","application/json","Accept","application/json"],k,j))
 s=7
-return A.L(l.hQ("https://hamfa.karnamapeyman.ir/api/Auth/RegisterUser",A.a8(["M_name",a,"M_famil",b,"M_usrName",c,"M_isMan",d,"M_mobile",a0,"M_phone",a1,"M_codeMeli",a2,"M_email",a3,"M_password",a4,"M_isHoghughi",a5,"M_companyName",a6,"M_shenase_meli",a7,"M_register_code",a8,"M_ostan",a9,"M_ostan_I",b0,"M_shahrestan",b1,"M_sh_I",b2,"M_address",b3,"M_postall_code",b4,"MoshRokn",b5,"MoshLock",b6],k,t.X),i,j),$async$b_G)
+return A.L(l.hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/Auth/RegisterUser",A.a8(["M_name",a,"M_famil",b,"M_usrName",c,"M_isMan",d,"M_mobile",a0,"M_phone",a1,"M_codeMeli",a2,"M_email",a3,"M_password",a4,"M_isHoghughi",a5,"M_companyName",a6,"M_shenase_meli",a7,"M_register_code",a8,"M_ostan",a9,"M_ostan_I",b0,"M_shahrestan",b1,"M_sh_I",b2,"M_address",b3,"M_postall_code",b4,"MoshRokn",b5,"MoshLock",b6],k,t.X),i,j),$async$b_G)
 case 7:n=b8
 if(A.c8(n.a).a)g=A.c8(n.a).a
 p=2
@@ -9206,7 +9206,7 @@ k=t.N
 j=t.z
 i=A.fv(A.a8(["Content-Type","application/json","Accept","application/json"],k,j))
 s=7
-return A.L(l.hQ("https://hamfa.karnamapeyman.ir/api/Auth/ResetPassword",A.a8(["MyString",a],k,k),i,j),$async$b_v)
+return A.L(l.hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/Auth/ResetPassword",A.a8(["MyString",a],k,k),i,j),$async$b_v)
 case 7:n=c
 if(A.c8(n.a).a)g=A.c8(n.a).a
 p=2
@@ -9235,7 +9235,7 @@ n=t.N
 m=t.z
 l=A.fv(A.a8(["Content-Type","application/json","Accept","application/json"],n,m))
 s=3
-return A.L(o.hQ("https://hamfa.karnamapeyman.ir/api/Auth/GetTempCodeForUserMob",A.a8(["MobNum",a],n,n),l,m),$async$b_C)
+return A.L(o.hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/Auth/GetTempCodeForUserMob",A.a8(["MobNum",a],n,n),l,m),$async$b_C)
 case 3:k=c
 if(A.c8(k.a).a){p=A.c8(k.a).a
 A.c8(k.a)}else p=!1
@@ -9255,7 +9255,7 @@ k=t.N
 j=t.z
 i=A.fv(A.a8(["Content-Type","application/json","Accept","application/json"],k,j))
 s=7
-return A.L(l.hQ("https://hamfa.karnamapeyman.ir/api/Auth/ValidateTempCodeForUserMob",A.a8(["MobNum",a,"TmpCode",b],k,k),i,j),$async$b_J)
+return A.L(l.hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/Auth/ValidateTempCodeForUserMob",A.a8(["MobNum",a,"TmpCode",b],k,k),i,j),$async$b_J)
 case 7:n=d
 if(A.c8(n.a).a)g=A.c8(n.a).e
 p=2
@@ -9280,7 +9280,7 @@ aej(){var s=0,r=A.F(t.Jv),q,p,o,n
 var $async$aej=A.G(function(a,b){if(a===1)return A.C(b,r)
 while(true)switch(s){case 0:p=t.z
 s=3
-return A.L($.ha().hQ("https://hamfa.karnamapeyman.ir/api/HamFa/GetBaseYearsList",A.t(p,p),A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],t.N,p)),p),$async$aej)
+return A.L($.ha().hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/HamFa/GetBaseYearsList",A.t(p,p),A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],t.N,p)),p),$async$aej)
 case 3:o=b
 n=A.b([],t.Y2)
 if(A.c8(o.a).a){p=t.j
@@ -9296,7 +9296,7 @@ o=t.N
 n=t.z
 m=A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],o,n))
 s=3
-return A.L(p.hQ("https://hamfa.karnamapeyman.ir/api/HamFa/GetBaseBookByYerId",A.a8(["Id",a],o,t.S),m,n),$async$aei)
+return A.L(p.hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/HamFa/GetBaseBookByYerId",A.a8(["Id",a],o,t.S),m,n),$async$aei)
 case 3:l=c
 k=A.b([],t.SR)
 if(A.c8(l.a).a){p=t.j
@@ -9312,7 +9312,7 @@ o=t.N
 n=t.z
 m=A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],o,n))
 s=3
-return A.L(p.hQ("https://hamfa.karnamapeyman.ir/api/HamFa/GetBaseFsbsByFhpIdAndYerId",A.a8(["Year",a,"Book",b],o,t.S),m,n),$async$Pu)
+return A.L(p.hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/HamFa/GetBaseFsbsByFhpIdAndYerId",A.a8(["Year",a,"Book",b],o,t.S),m,n),$async$Pu)
 case 3:l=d
 k=A.b([],t.CO)
 if(A.c8(l.a).a){p=t.j
@@ -9328,7 +9328,7 @@ o=t.N
 n=t.z
 m=A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],o,n))
 s=3
-return A.L(p.hQ("https://hamfa.karnamapeyman.ir/api/HamFa/GetBaseFhbhByFhpYerNuseId",A.a8(["Year",a,"Book",b,"Nuse",c,"ShowBrif",d],o,t.K),m,n),$async$Pt)
+return A.L(p.hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/HamFa/GetBaseFhbhByFhpYerNuseId",A.a8(["Year",a,"Book",b,"Nuse",c,"ShowBrif",d],o,t.K),m,n),$async$Pt)
 case 3:l=f
 k=A.b([],t.BE)
 if(A.c8(l.a).a){p=t.j
@@ -9344,7 +9344,7 @@ o=t.N
 n=t.z
 m=A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],o,n))
 s=3
-return A.L(p.hQ("https://hamfa.karnamapeyman.ir/api/HamFa/GetBaseAnaByCofh",A.a8(["Year",a,"Book",b,"Nuse",c,"Cofh",d,"FhbhId",e],o,t.K),m,n),$async$aZv)
+return A.L(p.hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/HamFa/GetBaseAnaByCofh",A.a8(["Year",a,"Book",b,"Nuse",c,"Cofh",d,"FhbhId",e],o,t.K),m,n),$async$aZv)
 case 3:l=g
 k=A.b([],t.xQ)
 j=J.bN(A.c8(l.a).e,"FbhDesc")
@@ -9361,7 +9361,7 @@ m=t.N
 l=t.z
 k=A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],m,l))
 s=3
-return A.L(n.hQ("https://hamfa.karnamapeyman.ir/api/HamFa/GetNuseForFhbh",A.a8(["Year",a,"Book",b,"Cofh",c],m,t.K),k,l),$async$aZJ)
+return A.L(n.hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/HamFa/GetNuseForFhbh",A.a8(["Year",a,"Book",b,"Cofh",c],m,t.K),k,l),$async$aZJ)
 case 3:j=e
 if(A.c8(j.a).a){p=A.c8(j.a).e
 o=p!=null?J.bN(A.c8(j.a).e,"FbhNuse"):""}else{o=""
@@ -9377,7 +9377,7 @@ o=t.N
 n=t.z
 m=A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],o,n))
 s=3
-return A.L(p.hQ("https://hamfa.karnamapeyman.ir/api/HamFa/GetAllMahReviewByMahId",A.a8(["Id",a],o,t.S),m,n),$async$aZq)
+return A.L(p.hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/HamFa/GetAllMahReviewByMahId",A.a8(["Id",a],o,t.S),m,n),$async$aZq)
 case 3:l=c
 k=A.b([],t.tz)
 if(A.c8(l.a).a){p=t.j
@@ -9390,7 +9390,7 @@ ae8(){var s=0,r=A.F(t.B0),q,p,o,n
 var $async$ae8=A.G(function(a,b){if(a===1)return A.C(b,r)
 while(true)switch(s){case 0:p=t.z
 s=3
-return A.L($.ha().hQ("https://hamfa.karnamapeyman.ir/api/HamFa/GetAllNazaratByMid",A.t(p,p),A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],t.N,p)),p),$async$ae8)
+return A.L($.ha().hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/HamFa/GetAllNazaratByMid",A.t(p,p),A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],t.N,p)),p),$async$ae8)
 case 3:o=b
 n=A.b([],t.kQ)
 if(A.c8(o.a).a){p=t.j
@@ -9406,7 +9406,7 @@ o=t.N
 n=t.z
 m=A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],o,n))
 s=3
-return A.L(p.hQ("https://hamfa.karnamapeyman.ir/api/HamFa/cudMahReview",A.a8(["AddDtos",A.b([A.a8(["RevMahId",a,"RevView",!1,"RevText",c],o,t.K)],t.Mq)],o,t.JD),m,n),$async$aYR)
+return A.L(p.hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/HamFa/cudMahReview",A.a8(["AddDtos",A.b([A.a8(["RevMahId",a,"RevView",!1,"RevText",c],o,t.K)],t.Mq)],o,t.JD),m,n),$async$aYR)
 case 3:l=e
 if(l.c===200){q=A.c8(l.a)
 s=1
@@ -9420,7 +9420,7 @@ o=t.N
 n=t.z
 m=A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],o,n))
 s=3
-return A.L(p.hQ("https://hamfa.karnamapeyman.ir/api/HamFa/CudNazarat",A.a8(["AddDtos",A.b([A.a8(["NazText",a],o,o)],t.m0)],o,t.xW),m,n),$async$aYS)
+return A.L(p.hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/HamFa/CudNazarat",A.a8(["AddDtos",A.b([A.a8(["NazText",a],o,o)],t.m0)],o,t.xW),m,n),$async$aYS)
 case 3:l=c
 if(l.c===200){q=A.c8(l.a)
 s=1
@@ -9431,7 +9431,7 @@ aZs(){var s=0,r=A.F(t.zC),q,p,o,n
 var $async$aZs=A.G(function(a,b){if(a===1)return A.C(b,r)
 while(true)switch(s){case 0:p=t.z
 s=3
-return A.L(A.b0X(null).hQ("https://hamfa.karnamapeyman.ir/api/General/GetAllProv",A.t(p,p),A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],t.N,p)),p),$async$aZs)
+return A.L(A.b0X(null).hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/General/GetAllProv",A.t(p,p),A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],t.N,p)),p),$async$aZs)
 case 3:o=b
 n=A.b([],t.yx)
 if(A.c8(o.a).a){p=t.j
@@ -9447,7 +9447,7 @@ o=t.N
 n=t.z
 m=A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],o,n))
 s=3
-return A.L(p.hQ("https://hamfa.karnamapeyman.ir/api/General/GetAllCityByPrvId",A.a8(["Id",a],o,t.S),m,n),$async$aZo)
+return A.L(p.hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/General/GetAllCityByPrvId",A.a8(["Id",a],o,t.S),m,n),$async$aZo)
 case 3:l=c
 k=A.b([],t.kK)
 if(A.c8(l.a).a){p=t.j
@@ -9463,7 +9463,7 @@ o=t.N
 n=t.z
 m=A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],o,n))
 s=3
-return A.L(p.hQ("https://hamfa.karnamapeyman.ir/api/HamFa/CudMahLike",A.a8(["AddDtos",A.b([A.a8(["LikMahId",a],o,t.S)],t.xN)],o,t.Di),m,n),$async$aYQ)
+return A.L(p.hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/HamFa/CudMahLike",A.a8(["AddDtos",A.b([A.a8(["LikMahId",a],o,t.S)],t.xN)],o,t.Di),m,n),$async$aYQ)
 case 3:l=c
 if(l.c===200){q=A.c8(l.a)
 s=1
@@ -9477,7 +9477,7 @@ o=t.N
 n=t.z
 m=A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],o,n))
 s=3
-return A.L(p.hQ("https://hamfa.karnamapeyman.ir/api/HamFa/DeleteLikeByMahIdForUser",A.a8(["Id",a],o,t.S),m,n),$async$aZ_)
+return A.L(p.hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/HamFa/DeleteLikeByMahIdForUser",A.a8(["Id",a],o,t.S),m,n),$async$aZ_)
 case 3:l=c
 if(l.c===200){q=A.c8(l.a)
 s=1
@@ -56513,7 +56513,7 @@ Cj(){var s=0,r=A.F(t.GV),q,p,o,n,m
 var $async$Cj=A.G(function(a,b){if(a===1)return A.C(b,r)
 while(true)switch(s){case 0:p=t.z
 s=3
-return A.L(A.b0X(null).hQ("https://hamfa.karnamapeyman.ir/api/HamFa/GetMahIdsLikeByMid",A.t(p,p),A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],t.N,p)),p),$async$Cj)
+return A.L(A.b0X(null).hQ("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/HamFa/GetMahIdsLikeByMid",A.t(p,p),A.fv(A.a8(["Content-Type","application/json","Accept","application/json","Authorization","Bearer "+$.hy,"MarcKarFrgm","H1@MF@2frgm!%1403$$M@rc#"],t.N,p)),p),$async$Cj)
 case 3:o=b
 n=A.b([],t.D4)
 m=A.c8(o.a)
@@ -135743,7 +135743,7 @@ r($,"byj","aeJ",()=>A.boh(0,t.S))
 r($,"bvu","b52",()=>B.b.gaN($.b5_()))
 r($,"bBz","b5_",()=>A.b([A.b73("\u0632\u0646",0),A.b73("\u0645\u0631\u062f",1)],A.aJ("q<hN>")))
 r($,"bBE","b51",()=>A.b([A.axK(1,"\u06a9\u0627\u0631\u0641\u0631\u0645\u0627"),A.axK(2,"\u067e\u06cc\u0645\u0627\u0646\u06a9\u0627\u0631"),A.axK(3,"\u0645\u0634\u0627\u0648\u0631"),A.axK(4,"\u0633\u0627\u06cc\u0631")],A.aJ("q<eN>")))
-r($,"bwI","ha",()=>A.biZ(A.b0o("https://hamfa.karnamapeyman.ir/api/")))
+r($,"bwI","ha",()=>A.biZ(A.b0o("https://cors-anywhere.herokuapp.com/https://hamfa.karnamapeyman.ir/api/")))
 s($,"bA6","bfZ",()=>A.b2o(1,1,500))
 r($,"bw2","b4k",()=>new A.Qj(B.U,B.U))
 s($,"bBl","bgP",()=>A.a8([B.Zk,A.bA(40),B.Zl,A.bA(40),B.yC,A.bA(12)],A.aJ("wV"),t.m_))
